@@ -8,6 +8,8 @@ The initial reaction to the noisy device log is typically: use the '-s' flag to 
 However, in my opinion this is the wrong way to handle it.
 You could be losing valuable log messages from daemons you did not even know existed.
 
+So our motto will be: **Black-list, not white-list!**
+
 So what's the correct way then?
 I'm glad you asked:
 You need to filter away the tags that you know are completely useless, yet burrying your valuable information with utter spam.
