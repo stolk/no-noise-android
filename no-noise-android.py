@@ -24,7 +24,7 @@ if not f :
 		sys.exit( 1 )
 
 lines = f.readlines()
-tags = [ x.strip() for x in lines if len( x.strip() ) ]
+tags = [ x.strip() for x in lines ]
 
 print "Read", len( tags ), "noisy tags that will be filtered."
 
