@@ -1,3 +1,4 @@
+
 AbsListView
 accuweather
 ACDB-LOADER
@@ -7,7 +8,14 @@ AlarmManager
 AlarmManagerService
 AppCompatViewInflater
 ApplicationUsage
+art
+ATVAudioPolicyManager
 AudioFlinger
+AudioHAL:alsa_utils
+AudioHAL:AudioHardwareOutput
+AudioHAL:AudioOutput
+AudioHAL:AudioStreamOut
+AudioHAL:AudioStreamOut
 audio_hw_primary
 AudioPlayer
 AudioPolicyManagerBase
@@ -15,8 +23,10 @@ AudioResampler
 audio_route
 AudioService
 AudioSink
+AudioSPDIF
 AudioTrack
 AuthorizationBluetoothService
+AVSettingsAndroid
 AwesomePlayer
 Babel_SMS
 BackupManagerService
@@ -30,8 +40,12 @@ BatteryService
 Batterystats
 BezelQuickConnect
 BluetoothAdapter
+BluetoothGatt
 BootupListener
 BroadcastProcessorService
+bt-btif
+BtGatt.btif
+BtGatt.GattService
 BusinessExecutor
 cac3
 CAE
@@ -43,8 +57,10 @@ CellLayout
 CellLayoutChildren
 CellLayoutHotseat
 CenterBarWindow
+chromium
 ClientService
 comdaemonstockapp
+CommonIMSInterface
 com.samsung.app
 comsamsunglog
 com.sec.android.widget.samsungapps.WidgetBannerService
@@ -56,8 +72,10 @@ daemonapp
 dalvikvm
 dalvikvm-help
 DataRouter
+DateView
 DisplayManagerService
 DisplayPowerController
+DownloadAttempt
 DrmWidevineDash
 elm
 EnterpriseBillingEngine
@@ -74,13 +92,16 @@ HeadsetStateMachine
 HotSeat
 Hotseat 
 HotwordServiceClient
+hwcomposer
 HWUI
 i
+IInputConnectionWrapper
 InputConnectionWrapper
 InputDispatcher
 InputManager
 InputManager - JNI
 InputReader
+InputTransport
 IwlandInterface
 KeyguardEffectViewMain
 KeyguardEffectViewMain
@@ -128,6 +149,7 @@ MultiWindowTrayService
 NetworkStatsFactory
 NfcAdaptation
 NfcNfa
+NotificationFestivalEffect
 NotificationMgr
 NtpTrustedTime
 NxpExtns
@@ -200,7 +222,9 @@ StagefrightPlayer
 STATUSBAR-AirplaneModeQuickSettingButton
 STATUSBAR-Clock
 STATUSBAR-IconMerger
+STATUSBAR-LocationQuickSettingButton
 StatusBarManagerService
+STATUSBAR-MultiWindowSettingButton
 STATUSBAR-NetworkController
 StatusBar.NetworkController
 STATUSBAR-NotificationService
@@ -211,6 +235,7 @@ STATUSBAR-RecentsPanel
 STATUSBAR-RecentsPanelView
 STATUSBAR-RecentTasksLoader
 STATUSBAR-StatusBarManagerService
+STATUSBAR-WiFiHotspotQuickSettingButton
 StatusChecker
 SupplicantStateTracker
 SurfaceFlinger
@@ -246,4 +271,3 @@ WindowOrientationListener
 wpa_supplicant
 WVCdm
 xxxxxxbtsdcard
-
