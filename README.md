@@ -26,6 +26,7 @@ You need to assemble a collection of noisy tags that you want to get rid of, in 
 If you decide to use mine, please go over my collection to make sure you will not miss stuff that is important to you, but noisy to me.
 
 Store this file in ~/.android/noisy.tags or in the current working directory.
+Also store a file with important tags you want highlighted in the ~/.android/important.tags file.
 Then invoke the python script:
 
 ```
