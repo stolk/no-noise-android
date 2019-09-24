@@ -36,10 +36,11 @@ print "Read", len( tags ), "noisy tags that will be filtered."
 print "Read", len( imptags), "important tags that will be emphasized."
 
 if argc == 1 :
-	cmd = "adb logcat"
+	cmd = "adb logcat -v brief"
 else :
-	cmd = "adb -s %s logcat" % ( sys.argv[1], )
+	cmd = "adb -s %s logcat -v brief" % ( sys.argv[1], )
 
+os.system( cmd + " -c" )
 f = os.popen( cmd, "r" )
 done = False
 
