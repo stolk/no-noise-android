@@ -1,11 +1,11 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 import os
 import sys
 
 argc = len( sys.argv )
 if argc > 2 :
-	print "Usage:", sys.argv[0],"[deviceid]"
+	print( "Usage:", sys.argv[0],"[deviceid]" )
 
 
 try:
@@ -23,7 +23,7 @@ if not f :
 		f = open( fname, "r" )
 		g = open( gname, "r" )
 	except:
-		print sys.argv[0], "needs files 'noisy.tags' and 'important.tags' either in ~/.android or current working directory."
+		print( sys.argv[0], "needs files 'noisy.tags' and 'important.tags' either in ~/.android or current working directory." )
 		sys.exit( 1 )
 
 lines = f.readlines()
@@ -32,8 +32,8 @@ tags = [ x.strip() for x in lines ]
 implines = g.readlines()
 imptags = [ x.strip() for x in implines ]
 
-print "Read", len( tags ), "noisy tags that will be filtered."
-print "Read", len( imptags), "important tags that will be emphasized."
+print( "Read", len( tags ), "noisy tags that will be filtered." )
+print( "Read", len( imptags), "important tags that will be emphasized." )
 
 if argc == 1 :
 	cmd = "adb logcat -v brief"
